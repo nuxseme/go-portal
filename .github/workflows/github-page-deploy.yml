@@ -10,7 +10,7 @@ jobs:
       matrix:
         node-version: [10.x]
     env:
-      GH_REP: xxx
+      GH_REP: go-portal-gitbook
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
